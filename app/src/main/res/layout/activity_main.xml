@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/Number1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.16" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal2"
+        android:id="@+id/Number2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Plus"
@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.546" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Minus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Minus"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.546" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Multiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Multiply"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.546" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Divide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Divide"
@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.62" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/Equals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Equals"
@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.616" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Answer is"
